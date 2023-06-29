@@ -1,0 +1,54 @@
+.white-box {
+    background-color: #f2f2f2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-right: 30vh;
+    padding-left: 30vh;
+    height: 10vh;
+
+    .circle {
+        width: 60px;
+        height: 60px;
+        background-color: orange;
+        border-radius: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-right: 20px;
+        
+        i {
+            color: white;
+        }
+    }
+
+    .orange-circle {
+        height: 40px;
+        width: 40px;
+        background-color: #ffd994;
+        margin-bottom: 5px;
+    }
+
+    .info {
+        flex: 1;
+
+        .title {
+            font-size: 15px;
+            font-weight: bold;
+        }
+
+        .description {
+            margin-bottom: 0px;
+            margin-top: -10px;
+            color: gray;
+        }
+    }
+}
+
+
+
+
+
+
+
+

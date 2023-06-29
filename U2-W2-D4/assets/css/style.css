@@ -1,0 +1,183 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+.navbar {
+  display: flex;
+  align-items: center;
+  background-color: #f2f2f2;
+  padding: 5px;
+  height: 60px;
+}
+
+.logo {
+  margin-right: 30px;
+  margin-left: 10px;
+}
+
+.dropdown {
+  position: relative;
+  margin-right: 30px;
+}
+
+.dropdown-toggle {
+  color: #333;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  display: none;
+  background-color: #fff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+}
+
+.dropdown:hover .dropdown-menu {
+  display: block;
+}
+
+.notifications {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+}
+
+.notification-icon,
+.profile-image {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background-color: #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 10px;
+}
+
+.notification-icon {
+  color: #fff;
+}
+
+.profile-image img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+
+.content-section {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: #9862fe;
+  height: 50vh;
+}
+.content-section .content {
+  margin-left: 30vh;
+  margin-right: 18vh;
+  color: white;
+}
+.content-section .content .title {
+  font-size: 30px;
+}
+.content-section .content .text {
+  color: #bdb7cf;
+  margin-bottom: 35px;
+  font-size: 15px;
+}
+.content-section .content .buttons {
+  display: flex;
+}
+.content-section .content .buttons .green-button {
+  background-color: #35dda5;
+  color: white;
+  padding: 10px 20px;
+  margin-right: 5px;
+  border: none;
+  border-radius: 5px;
+}
+.content-section .content .buttons .white-button {
+  background-color: white;
+  color: black;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+.content-section .image {
+  height: 50vh;
+}
+
+.white-box {
+  background-color: #f2f2f2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-right: 30vh;
+  padding-left: 30vh;
+  height: 10vh;
+}
+.white-box .circle {
+  width: 60px;
+  height: 60px;
+  background-color: orange;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 20px;
+}
+.white-box .circle i {
+  color: white;
+}
+.white-box .orange-circle {
+  height: 40px;
+  width: 40px;
+  background-color: #ffd994;
+  margin-bottom: 5px;
+}
+.white-box .info {
+  flex: 1;
+}
+.white-box .info .title {
+  font-size: 15px;
+  font-weight: bold;
+}
+.white-box .info .description {
+  margin-bottom: 0px;
+  margin-top: -10px;
+  color: gray;
+}
+
+main {
+  background-color: #f2f2f2;
+}
+
+footer {
+  margin-top: 5rem;
+  padding: 1.5rem 0;
+  background-color: #f8f9fa;
+}
+footer .container-fluid {
+  border-top: 1px solid #ccc;
+}
+footer .container-fluid .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+footer .container-fluid .col {
+  display: flex;
+}
+footer .container-fluid p {
+  margin: 0;
+  padding: 0 0.5rem;
+}
+
+body {
+  width: 100%;
+  margin: 0px;
+  font-family: "Inter", sans-serif;
+}/*# sourceMappingURL=style.css.map */

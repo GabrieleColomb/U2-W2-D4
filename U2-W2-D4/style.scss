@@ -1,0 +1,15 @@
+@import "./partials/navbar";
+@import "./partials/section";
+@import "./partials/article";
+@import "./partials/main";
+@import "./partials/footer";
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+body{
+    width: 100%;
+    margin: 0px;
+    font-family: 'Inter', sans-serif;
+}

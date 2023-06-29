@@ -1,0 +1,26 @@
+footer {
+    margin-top: 5rem;
+    padding: 1.5rem 0;
+    background-color: #f8f9fa;
+  
+    .container-fluid {
+      border-top: 1px solid #ccc;
+  
+      
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  .col {
+    display: flex;
+  }
+
+  p {
+    margin: 0;
+    padding: 0 0.5rem;
+  }
+}
+}
